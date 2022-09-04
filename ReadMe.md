@@ -1,4 +1,4 @@
-### インストール
+## インストール
 
 1. イメージ作成
 ```bash
@@ -19,3 +19,9 @@ docker run --gpus all --name machine_learning -d -it -p 8888:8888 -p 22:22 -v ${
 5. jupyter notebook --generate-config で config ファイルを作成
 
 6. 作成された $HOME/.jupyter/jupyter_notebook_config.py に `c.NotebookApp.ip = '0.0.0.0'` を追加
+
+
+## ホストｐｃでのソフトウェアインストール(windows)
+
+1. xming, xming-fonts インストール
+2. xming 起動
